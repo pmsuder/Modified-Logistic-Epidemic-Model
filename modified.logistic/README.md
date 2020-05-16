@@ -10,20 +10,4 @@ For use, download as a zip file.
 
 In case of any questions please contact me at piotr.suder@ufl.edu.
 
-## Installation
-
-You can install the released version of modified.logistic from [CRAN](https://CRAN.R-project.org) with:
-
-``` r
-install.packages("modified.logistic")
-```
-
-## Example
-
-This is a basic example which shows you how to solve a common problem:
-
-``` r
-library(modified.logistic)
-## basic example code
-```
 

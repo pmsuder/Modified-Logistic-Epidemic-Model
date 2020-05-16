@@ -1,0 +1,15 @@
+Package: modified.logistic
+Type: Package
+Title: Allows Fitting of the Modified Logistic Regression Model
+Version: 0.1.0
+Author: Piotr Suder <piotr.suder@ufl.edu>
+Maintainer: Piotr Suder <piotr.suder@ufl.edu>
+Description: This package allows for fitting of a modified logistic regression model of the form
+     I(t) = \frac{K}{1 + exp\left(frac{\theta}{t} + {\omega}t + \gamma \right)}
+     , where  $K, \theta, \omega, \gamma$ are constant parameters.
+     This model has applications moslty in time series, especially in modelling the spread of an infectious disease in a given coutry, so in this case t is time and I(t) is the number of infected individuals.
+     This package allows also for smoothing out the epidemic data in situations when we know, for example, that there is a spike in the number of reported cases on a given day due to change in the diagnostics criteria or inclusion of a large number of individuals who have been known to be infected, but were not officially reported, as it was the case, for example, with France during the COVID-19 epidemic in 2020, which on one day included all the infections from elderly care facilities which were not counted previously in the reported cases.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
